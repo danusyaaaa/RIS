@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="laba2Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Exams">
+          <Key>
+            <PropertyRef Name="Name" />
+          </Key>
+          <Property Name="Name" Type="nchar" MaxLength="20" Nullable="false" />
+          <Property Name="FIOTeacher" Type="nchar" MaxLength="50" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="Time" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="GroupsExams">
+          <Key>
+            <PropertyRef Name="GroupsNumber" />
+            <PropertyRef Name="ExamsName" />
+          </Key>
+          <Property Name="GroupsNumber" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="ExamsName" Type="nchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_GroupsExams_Exams">
+          <End Role="Exams" Type="Self.Exams" Multiplicity="1" />
+          <End Role="GroupsExams" Type="Self.GroupsExams" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Exams">
+              <PropertyRef Name="Name" />
+            </Principal>
+            <Dependent Role="GroupsExams">
+              <PropertyRef Name="ExamsName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="laba2ModelStoreContainer">
+          <EntitySet Name="Exams" EntityType="Self.Exams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="GroupsExams" EntityType="Self.GroupsExams" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_GroupsExams_Exams" Association="Self.FK_GroupsExams_Exams">
+            <End Role="Exams" EntitySet="Exams" />
+            <End Role="GroupsExams" EntitySet="GroupsExams" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="laba2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Exams">
+          <Key>
+            <PropertyRef Name="Name" />
+          </Key>
+          <Property Name="Name" Type="String" MaxLength="20" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="FIOTeacher" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Time" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="GroupsExams" Relationship="Self.FK_GroupsExams_Exams" FromRole="Exams" ToRole="GroupsExams" />
+        </EntityType>
+        <EntityType Name="GroupsExams">
+          <Key>
+            <PropertyRef Name="GroupsNumber" />
+            <PropertyRef Name="ExamsName" />
+          </Key>
+          <Property Name="GroupsNumber" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="ExamsName" Type="String" MaxLength="20" FixedLength="true" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Exams" Relationship="Self.FK_GroupsExams_Exams" FromRole="GroupsExams" ToRole="Exams" />
+        </EntityType>
+        <Association Name="FK_GroupsExams_Exams">
+          <End Role="Exams" Type="Self.Exams" Multiplicity="1" />
+          <End Role="GroupsExams" Type="Self.GroupsExams" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Exams">
+              <PropertyRef Name="Name" />
+            </Principal>
+            <Dependent Role="GroupsExams">
+              <PropertyRef Name="ExamsName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="laba2Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Exams" EntityType="Self.Exams" />
+          <EntitySet Name="GroupsExams" EntityType="Self.GroupsExams" />
+          <AssociationSet Name="FK_GroupsExams_Exams" Association="Self.FK_GroupsExams_Exams">
+            <End Role="Exams" EntitySet="Exams" />
+            <End Role="GroupsExams" EntitySet="GroupsExams" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="laba2ModelStoreContainer" CdmEntityContainer="laba2Entities">
+          <EntitySetMapping Name="Exams">
+            <EntityTypeMapping TypeName="laba2Model.Exams">
+              <MappingFragment StoreEntitySet="Exams">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="FIOTeacher" ColumnName="FIOTeacher" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GroupsExams">
+            <EntityTypeMapping TypeName="laba2Model.GroupsExams">
+              <MappingFragment StoreEntitySet="GroupsExams">
+                <ScalarProperty Name="GroupsNumber" ColumnName="GroupsNumber" />
+                <ScalarProperty Name="ExamsName" ColumnName="ExamsName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

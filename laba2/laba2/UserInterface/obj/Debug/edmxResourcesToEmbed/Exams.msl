@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="laba2ModelStoreContainer" CdmEntityContainer="laba2Entities">
+    <EntitySetMapping Name="Exams">
+      <EntityTypeMapping TypeName="laba2Model.Exams">
+        <MappingFragment StoreEntitySet="Exams">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="FIOTeacher" ColumnName="FIOTeacher" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

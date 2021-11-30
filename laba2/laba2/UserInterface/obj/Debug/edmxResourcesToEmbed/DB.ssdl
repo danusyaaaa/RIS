@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="laba2Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Exams">
+    <Key>
+      <PropertyRef Name="Name" />
+    </Key>
+    <Property Name="Name" Type="nchar" MaxLength="20" Nullable="false" />
+    <Property Name="FIOTeacher" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Time" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="GroupsExams">
+    <Key>
+      <PropertyRef Name="GroupsNumber" />
+      <PropertyRef Name="ExamsName" />
+    </Key>
+    <Property Name="GroupsNumber" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="ExamsName" Type="nchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_GroupsExams_Exams">
+    <End Role="Exams" Type="Self.Exams" Multiplicity="1" />
+    <End Role="GroupsExams" Type="Self.GroupsExams" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exams">
+        <PropertyRef Name="Name" />
+      </Principal>
+      <Dependent Role="GroupsExams">
+        <PropertyRef Name="ExamsName" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="laba2ModelStoreContainer">
+    <EntitySet Name="Exams" EntityType="Self.Exams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GroupsExams" EntityType="Self.GroupsExams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_GroupsExams_Exams" Association="Self.FK_GroupsExams_Exams">
+      <End Role="Exams" EntitySet="Exams" />
+      <End Role="GroupsExams" EntitySet="GroupsExams" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
