@@ -1,0 +1,54 @@
+C:\Users\karol\source\repos\Server3\Server3\bin\Debug\netcoreapp3.1\Server3.exe
+C:\Users\karol\source\repos\Server3\Server3\bin\Debug\netcoreapp3.1\Server3.deps.json
+C:\Users\karol\source\repos\Server3\Server3\bin\Debug\netcoreapp3.1\Server3.runtimeconfig.json
+C:\Users\karol\source\repos\Server3\Server3\bin\Debug\netcoreapp3.1\Server3.runtimeconfig.dev.json
+C:\Users\karol\source\repos\Server3\Server3\bin\Debug\netcoreapp3.1\Server3.dll
+C:\Users\karol\source\repos\Server3\Server3\bin\Debug\netcoreapp3.1\Server3.pdb
+C:\Users\karol\source\repos\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.csprojAssemblyReference.cache
+C:\Users\karol\source\repos\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.Form1.resources
+C:\Users\karol\source\repos\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.csproj.GenerateResource.cache
+C:\Users\karol\source\repos\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.AssemblyInfoInputs.cache
+C:\Users\karol\source\repos\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.AssemblyInfo.cs
+C:\Users\karol\source\repos\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.csproj.CoreCompileInputs.cache
+C:\Users\karol\source\repos\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.dll
+C:\Users\karol\source\repos\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.pdb
+C:\Users\karol\source\repos\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.genruntimeconfig.cache
+D:\7sem\РИС\lab3\Server3\Server3\bin\Debug\netcoreapp3.1\Server3.exe
+D:\7sem\РИС\lab3\Server3\Server3\bin\Debug\netcoreapp3.1\Server3.deps.json
+D:\7sem\РИС\lab3\Server3\Server3\bin\Debug\netcoreapp3.1\Server3.runtimeconfig.json
+D:\7sem\РИС\lab3\Server3\Server3\bin\Debug\netcoreapp3.1\Server3.runtimeconfig.dev.json
+D:\7sem\РИС\lab3\Server3\Server3\bin\Debug\netcoreapp3.1\Server3.dll
+D:\7sem\РИС\lab3\Server3\Server3\bin\Debug\netcoreapp3.1\Server3.pdb
+D:\7sem\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.csprojAssemblyReference.cache
+D:\7sem\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.Form1.resources
+D:\7sem\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.csproj.GenerateResource.cache
+D:\7sem\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.AssemblyInfoInputs.cache
+D:\7sem\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.AssemblyInfo.cs
+D:\7sem\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.csproj.CoreCompileInputs.cache
+D:\7sem\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.dll
+D:\7sem\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.pdb
+D:\7sem\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.genruntimeconfig.cache
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab3\Server3\Server3\bin\Debug\netcoreapp3.1\Server3.exe
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab3\Server3\Server3\bin\Debug\netcoreapp3.1\Server3.deps.json
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab3\Server3\Server3\bin\Debug\netcoreapp3.1\Server3.runtimeconfig.json
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab3\Server3\Server3\bin\Debug\netcoreapp3.1\Server3.runtimeconfig.dev.json
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab3\Server3\Server3\bin\Debug\netcoreapp3.1\Server3.dll
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab3\Server3\Server3\bin\Debug\netcoreapp3.1\Server3.pdb
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.csproj.AssemblyReference.cache
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.Form1.resources
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.csproj.GenerateResource.cache
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.GeneratedMSBuildEditorConfig.editorconfig
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.AssemblyInfoInputs.cache
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.AssemblyInfo.cs
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.csproj.CoreCompileInputs.cache
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.dll
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.pdb
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.genruntimeconfig.cache
+C:\Users\Anton\Desktop\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.dll
+C:\Users\Anton\Desktop\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.pdb
+C:\Users\Anton\Desktop\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.csprojAssemblyReference.cache
+C:\Users\Anton\Desktop\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.Form1.resources
+C:\Users\Anton\Desktop\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.csproj.GenerateResource.cache
+C:\Users\Anton\Desktop\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.AssemblyInfoInputs.cache
+C:\Users\Anton\Desktop\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.AssemblyInfo.cs
+C:\Users\Anton\Desktop\РИС\lab3\Server3\Server3\obj\Debug\netcoreapp3.1\Server3.csproj.CoreCompileInputs.cache
