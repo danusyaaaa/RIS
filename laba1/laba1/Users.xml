@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <user>
+    <login>admin</login>
+    <password>admin</password>
+    <type>owner</type>
+  </user>
+  <user>
+    <login>user</login>
+    <password>user</password>
+    <type>user</type>
+  </user>
+  <user>
+    <login>user1</login>
+    <password>user1</password>
+    <type>user</type>
+  </user>
+  <user>
+    <login>admin1</login>
+    <password>admin1</password>
+    <type>owner</type>
+  </user>
+</users>

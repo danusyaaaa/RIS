@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Flats>
+  <Flat isBooked="false">
+    <Code>11</Code>
+    <Name>sadasdasdsa</Name>
+    <Region>svt</Region>
+    <NumberRooms>2</NumberRooms>
+    <Price>200</Price>
+    <CountViews>0</CountViews>
+  </Flat>
+  <Flat isBooked="false">
+    <Code>123123</Code>
+    <Name>sadasdas</Name>
+    <Region>svt</Region>
+    <NumberRooms>3</NumberRooms>
+    <Price>150</Price>
+    <CountViews>0</CountViews>
+  </Flat>
+  <Flat isBooked="false">
+    <Code>123123</Code>
+    <Name>hataSvt</Name>
+    <Region>Svt</Region>
+    <NumberRooms>2</NumberRooms>
+    <Price>3123</Price>
+    <CountViews>1</CountViews>
+  </Flat>
+  <Flat isBooked="false">
+    <Code>123123</Code>
+    <Name>svt</Name>
+    <Region>svt</Region>
+    <NumberRooms>3</NumberRooms>
+    <Price>250</Price>
+    <CountViews>1</CountViews>
+  </Flat>
+  <Flat isBooked="false">
+    <Code>123123</Code>
+    <Name>minsk</Name>
+    <Region>centr</Region>
+    <NumberRooms>2</NumberRooms>
+    <Price>250</Price>
+    <CountViews>1</CountViews>
+  </Flat>
+  <Flat isBooked="false">
+    <Code>123123</Code>
+    <Name>makaron</Name>
+    <Region>minsk</Region>
+    <NumberRooms>2</NumberRooms>
+    <Price>350</Price>
+    <CountViews>2</CountViews>
+  </Flat>
+</Flats>

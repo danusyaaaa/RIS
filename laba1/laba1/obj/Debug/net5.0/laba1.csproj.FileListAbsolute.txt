@@ -1,0 +1,16 @@
+D:\study\7 сем\РИС\мои лабы\laba1\laba1\bin\Debug\net5.0\laba1.exe
+D:\study\7 сем\РИС\мои лабы\laba1\laba1\bin\Debug\net5.0\laba1.deps.json
+D:\study\7 сем\РИС\мои лабы\laba1\laba1\bin\Debug\net5.0\laba1.runtimeconfig.json
+D:\study\7 сем\РИС\мои лабы\laba1\laba1\bin\Debug\net5.0\laba1.runtimeconfig.dev.json
+D:\study\7 сем\РИС\мои лабы\laba1\laba1\bin\Debug\net5.0\laba1.dll
+D:\study\7 сем\РИС\мои лабы\laba1\laba1\bin\Debug\net5.0\ref\laba1.dll
+D:\study\7 сем\РИС\мои лабы\laba1\laba1\bin\Debug\net5.0\laba1.pdb
+D:\study\7 сем\РИС\мои лабы\laba1\laba1\obj\Debug\net5.0\laba1.csproj.AssemblyReference.cache
+D:\study\7 сем\РИС\мои лабы\laba1\laba1\obj\Debug\net5.0\laba1.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\7 сем\РИС\мои лабы\laba1\laba1\obj\Debug\net5.0\laba1.AssemblyInfoInputs.cache
+D:\study\7 сем\РИС\мои лабы\laba1\laba1\obj\Debug\net5.0\laba1.AssemblyInfo.cs
+D:\study\7 сем\РИС\мои лабы\laba1\laba1\obj\Debug\net5.0\laba1.csproj.CoreCompileInputs.cache
+D:\study\7 сем\РИС\мои лабы\laba1\laba1\obj\Debug\net5.0\laba1.dll
+D:\study\7 сем\РИС\мои лабы\laba1\laba1\obj\Debug\net5.0\ref\laba1.dll
+D:\study\7 сем\РИС\мои лабы\laba1\laba1\obj\Debug\net5.0\laba1.pdb
+D:\study\7 сем\РИС\мои лабы\laba1\laba1\obj\Debug\net5.0\laba1.genruntimeconfig.cache
