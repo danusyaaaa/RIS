@@ -1,0 +1,32 @@
+c:\users\karol\onedrive\documents\visual studio 2013\Projects\lab4\lab4\bin\Debug\lab4.exe.config
+C:\Users\karol\OneDrive\documents\visual studio 2013\Projects\lab4\lab4\bin\Debug\library.mdb
+C:\Users\karol\OneDrive\documents\visual studio 2013\Projects\lab4\lab4\bin\Debug\lab4.exe
+C:\Users\karol\OneDrive\documents\visual studio 2013\Projects\lab4\lab4\bin\Debug\lab4.pdb
+C:\Users\karol\OneDrive\documents\visual studio 2013\Projects\lab4\lab4\obj\Debug\lab4.csprojResolveAssemblyReference.cache
+C:\Users\karol\OneDrive\documents\visual studio 2013\Projects\lab4\lab4\obj\Debug\lab4.Form1.resources
+C:\Users\karol\OneDrive\documents\visual studio 2013\Projects\lab4\lab4\obj\Debug\lab4.Properties.Resources.resources
+C:\Users\karol\OneDrive\documents\visual studio 2013\Projects\lab4\lab4\obj\Debug\lab4.csproj.GenerateResource.Cache
+C:\Users\karol\OneDrive\documents\visual studio 2013\Projects\lab4\lab4\obj\Debug\lab4.exe
+C:\Users\karol\OneDrive\documents\visual studio 2013\Projects\lab4\lab4\obj\Debug\lab4.pdb
+D:\7sem\РИС\lab4\lab4\lab4\bin\Debug\lab4.exe.config
+D:\7sem\РИС\lab4\lab4\lab4\bin\Debug\lab4.exe
+D:\7sem\РИС\lab4\lab4\lab4\bin\Debug\lab4.pdb
+D:\7sem\РИС\lab4\lab4\lab4\obj\Debug\lab4.csprojAssemblyReference.cache
+D:\7sem\РИС\lab4\lab4\lab4\obj\Debug\lab4.Form1.resources
+D:\7sem\РИС\lab4\lab4\lab4\obj\Debug\lab4.Properties.Resources.resources
+D:\7sem\РИС\lab4\lab4\lab4\obj\Debug\lab4.csproj.GenerateResource.cache
+D:\7sem\РИС\lab4\lab4\lab4\obj\Debug\lab4.csproj.CoreCompileInputs.cache
+D:\7sem\РИС\lab4\lab4\lab4\obj\Debug\lab4.exe
+D:\7sem\РИС\lab4\lab4\lab4\obj\Debug\lab4.pdb
+D:\7sem\РИС\lab4\lab4\lab4\bin\Debug\comp.mdb
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab4\lab4\lab4\bin\Debug\comp.mdb
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab4\lab4\lab4\bin\Debug\lab4.exe.config
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab4\lab4\lab4\bin\Debug\lab4.exe
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab4\lab4\lab4\bin\Debug\lab4.pdb
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab4\lab4\lab4\obj\Debug\lab4.csproj.AssemblyReference.cache
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab4\lab4\lab4\obj\Debug\lab4.Form1.resources
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab4\lab4\lab4\obj\Debug\lab4.Properties.Resources.resources
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab4\lab4\lab4\obj\Debug\lab4.csproj.GenerateResource.cache
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab4\lab4\lab4\obj\Debug\lab4.csproj.CoreCompileInputs.cache
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab4\lab4\lab4\obj\Debug\lab4.exe
+E:\Мои документы\4 курс\7 семестр\РИС\РИС\РИС\lab4\lab4\lab4\obj\Debug\lab4.pdb
